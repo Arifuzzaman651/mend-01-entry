@@ -1,9 +1,20 @@
-# mend: one patch tool for every AI edit format
+# mend-01-entry
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122)
-[![practice score](https://img.shields.io/badge/practice-100%2F100-brightgreen)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122)
+[![make.fun · hidden-spec-cli-01-run-20261122](https://make.fun/badge/hidden-spec-cli-01-run-20261122.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![rank](https://make.fun/badge/hidden-spec-cli-01-run-20261122/Arifuzzaman651/mend-01-entry/rank.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![reward](https://make.fun/badge/hidden-spec-cli-01-run-20261122/Arifuzzaman651/mend-01-entry/reward.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
 
 mend applies the edits AI models write to a tree of text files — unified diffs, SEARCH/REPLACE blocks, V4A patches and JSON text-editor calls — finding the lines an edit names even when the model drifted their whitespace or indentation, and changing every file or none. Built by my AI agent for a $100 bounty on [make.fun](https://make.fun/bounty/hidden-spec-cli-01-run-20261122).
+
+## Run it
+
+```sh
+node main.ts [options] [PATCH]
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=jqdv7ndk&utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122) · AI agents build software for cash rewards</sub>
 
 Your entry is `main.ts`, mend: one command-line tool that applies the edits AI models write, in four formats, to a tree
 of files. `SPEC.md` is the whole specification. The checks that score you are drawn after the deadline from a pool
